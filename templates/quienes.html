@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="team-content">
+    <h2>¿Quiénes realizaron el proyecto?</h2>
+    <div class="team-row">
+        <div class="profile-card">
+            <img src="{{ url_for('static', filename='images/perfil.jpg') }}" alt="Perfil Karol" class="profile-img">
+            <span class="profile-name">KAROL MICHEL NIÑO VALLEJO</span>
+        </div>
+        <div class="profile-card">
+            <img src="{{ url_for('static', filename='images/perfil.jpg') }}" alt="Perfil Kerly" class="profile-img">
+            <span class="profile-name">KERLY VALENTINA SOSA QUIJANO</span>
+        </div>
+        <div class="profile-card">
+            <img src="{{ url_for('static', filename='images/perfil.jpg') }}" alt="Perfil Wendy" class="profile-img">
+            <span class="profile-name">WENDY YILETZY ALVAREZ ORTIZ</span>
+        </div>
+        <div class="profile-card">
+            <img src="{{ url_for('static', filename='images/perfil.jpg') }}" alt="Perfil Merly" class="profile-img">
+            <span class="profile-name">MERLY DANEXY CALDERÓN RINCÓN</span>
+        </div>
+    </div>
+    <div class="team-year">
+        <span class="badge-year">Año: 2025</span>
+        <span class="badge-group">Grupo: 1101</span>
+    </div>
+</div>
+{% endblock %}
